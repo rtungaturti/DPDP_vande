@@ -1,4 +1,12 @@
 {
+  "scripts": {
+    "preinstall": "npm install @ai4bharat/indic-transliterate --force --no-save"
+  },
+  "dependencies": {
+    "@ai4bharat/indic-transliterate": "latest"
+  }
+}
+{
   "name": "dpdp-consent-agent",
   "private": true,
   "version": "0.0.0",
